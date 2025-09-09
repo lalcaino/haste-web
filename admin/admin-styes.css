@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #wrapper {
     overflow-x: hidden;
 }
@@ -44,51 +43,4 @@
 
 #darker-table tbody tr:hover {
     background-color: #2a2a2a;
-=======
-#wrapper {
-    overflow-x: hidden;
-}
-
-#sidebar-wrapper {
-    min-height: 100vh;
-    width: 15rem;
-}
-
-#sidebar-wrapper .list-group {
-    width: 15rem;
-}
-
-#page-content-wrapper {
-    min-width: 100vw;
-}
-
-@media (min-width: 768px) {
-    #sidebar-wrapper {
-        margin-left: 0;
-    }
-    #page-content-wrapper {
-        min-width: 0;
-        width: 100%;
-    }
-}
-
-/* Nuevos estilos para la tabla más oscura */
-#darker-table {
-    background-color: #1a1a1a;
-    color: #f8f9fa;
-    border-color: #333;
-}
-
-#darker-table th,
-#darker-table td {
-    border-color: #333;
-}
-
-#darker-table .table-striped > tbody > tr:nth-of-type(odd) {
-    background-color: #222;
-}
-
-#darker-table tbody tr:hover {
-    background-color: #2a2a2a;
->>>>>>> a2497f6b234155843b60b9a394b5446cb2720f71
 }
