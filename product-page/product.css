@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .product-image-large {
     max-width: 50%;
     height: auto;
@@ -24,4 +25,32 @@
 #decreaseBtn,
 #increaseBtn {
   border-color: #242424 !important;
+=======
+.product-image-large {
+    max-width: 50%;
+    height: auto;
+}
+.product-details {
+    padding: 5  px;
+}
+
+
+#quantity {
+    max-width: 90px;
+    text-align: center;
+}
+
+.btn-outline-custom {
+    background-color: #0043ff;
+    color: #fff;
+}
+
+#quantity {
+    text-align: center;
+}
+
+#decreaseBtn,
+#increaseBtn {
+  border-color: #242424 !important;
+>>>>>>> a2497f6b234155843b60b9a394b5446cb2720f71
 }
