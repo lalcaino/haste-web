@@ -74,14 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
-    const checkoutBtn = document.getElementById('checkout');
-    if (checkoutBtn) {
-      checkoutBtn.addEventListener('click', () => {
-        alert('¡Gracias por tu compra!');
-        localStorage.removeItem('cart');
-        renderCart();
-      });
-    }
 
     const loginForm = document.getElementById('loginForm');
     if (loginForm) {
